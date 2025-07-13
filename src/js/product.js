@@ -8,7 +8,7 @@ function addProductToCart(product) {
 
   // Ensure cartItems is an array
   if (!Array.isArray(cartItems)) {
-    cartItems;
+    cartItems = [];
   }
 
   cartItems.push(product);
